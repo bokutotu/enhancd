@@ -53,7 +53,7 @@ if [[ ! -f ${ENHANCD_DIR}/enhancd.log ]]; then
 fi
 
 # alias to cd
-eval "alias ${ENHANCD_COMMAND:=cd}=__enhancd::cd"
+eval "alias ${ENHANCD_COMMAND:=ecd}=__enhancd::cd"
 
 # Set the filter if empty
 if [[ -z ${ENHANCD_FILTER} ]]; then
